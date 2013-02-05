@@ -452,10 +452,11 @@
 	},
 	"file_history":
 	[
+		"/D/Sites/sample_app/app/assets/stylesheets/custom.css.scss",
+		"/D/Sites/sample_app/app/views/layouts/application.html.erb",
 		"/D/Sites/sample_app/app/helpers/sessions_helper.rb",
 		"/D/Sites/sample_app/app/controllers/sessions_controller.rb",
 		"/D/Sites/sample_app/app/views/users/edit.html.erb",
-		"/D/Sites/sample_app/app/assets/stylesheets/custom.css.scss",
 		"/D/Sites/sample_app/app/helpers/users_helper.rb",
 		"/D/Sites/sample_app/app/views/layouts/_header.html.erb",
 		"/D/Sites/sample_app/app/views/users/index.html.erb",
@@ -505,7 +506,6 @@
 		"/D/Sites/sample_app/spec/factories.rb",
 		"/D/Sites/sample_app/app/views/users/new.html.erb",
 		"/D/Sites/sample_app/app/assets/stylesheets/application.css",
-		"/D/Sites/sample_app/app/views/layouts/application.html.erb",
 		"/D/Sites/sample_app/config/environments/production.rb",
 		"/D/Sites/sample_app/config/environments/test.rb",
 		"/D/Sites/sample_app/spec/helpers/application_helper_spec.rb",
@@ -587,7 +587,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 95.0,
+		"height": 0.0,
 		"where_history":
 		[
 			""
