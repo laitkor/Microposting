@@ -1,12 +1,20 @@
 <footer class="footer">
-  <small>
-    Sample app by <a href="http://in.linkedin.com/pub/akash-agrawal/54/166/473/">Akash Agrawal</a>
-  </small>
-  <nav>
-    <ul>
-      <li><%= link_to "About",   about_path %></li>
-      <li><%= link_to "Contact", contact_path %></li>
-      <li><a href="http://news.railstutorial.org/">News</a></li>
-    </ul>
-  </nav>
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="center">
+          <small>
+            Sample app by <a href="http://in.linkedin.com/pub/akash-agrawal/54/166/473/">Akash Agrawal</a>
+          </small>
+        </div>
+      </div>
+      <div class="center">
+        <small>
+          <span><%= link_to "About",   about_path %></span>
+          <span><%= link_to "Contact", contact_path %></span>
+          <span><a href="http://news.railstutorial.org/">News</a></span>
+        </small>
+      </div>
+    </div>
+  </div>
 </footer>
