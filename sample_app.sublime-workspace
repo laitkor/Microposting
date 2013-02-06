@@ -323,7 +323,7 @@
 			"file": "Gemfile",
 			"settings":
 			{
-				"buffer_size": 1179,
+				"buffer_size": 1161,
 				"line_ending": "Windows"
 			}
 		},
@@ -331,8 +331,8 @@
 			"file": "db/migrate/20130206122524_devise_create_admin_users.rb",
 			"settings":
 			{
-				"buffer_size": 1737,
-				"line_ending": "Unix"
+				"buffer_size": 0,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -710,15 +710,15 @@
 					"file": "Gemfile",
 					"settings":
 					{
-						"buffer_size": 1179,
+						"buffer_size": 1161,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								170,
-								170
+								0,
+								0
 							]
 						],
 						"settings":
@@ -737,15 +737,15 @@
 					"file": "db/migrate/20130206122524_devise_create_admin_users.rb",
 					"settings":
 					{
-						"buffer_size": 1737,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								317,
-								317
+								0,
+								0
 							]
 						],
 						"settings":
