@@ -311,6 +311,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 477,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1179,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "db/migrate/20130206122524_devise_create_admin_users.rb",
+			"settings":
+			{
+				"buffer_size": 1737,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/Ruby/Ruby.sublime-build",
 	"command_palette":
@@ -319,16 +343,20 @@
 		"selected_items":
 		[
 			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ssr",
+				"Set Syntax: Ruby"
+			],
+			[
 				"id",
 				"SublimeCodeIntel: Disable Plugin"
 			],
 			[
 				"sscs",
 				"Set Syntax: CSS"
-			],
-			[
-				"ind",
-				"Indentation: Reindent Lines"
 			],
 			[
 				"ssht",
@@ -419,10 +447,6 @@
 				"Indentation: Reindent Lines"
 			],
 			[
-				"ssr",
-				"Set Syntax: Ruby"
-			],
-			[
 				"ss",
 				"Set Syntax: Ruby"
 			],
@@ -443,7 +467,7 @@
 				"Set Syntax: HTML"
 			]
 		],
-		"width": 522.0
+		"width": 386.0
 	},
 	"console":
 	{
@@ -460,6 +484,14 @@
 	},
 	"file_history":
 	[
+<<<<<<< HEAD
+=======
+		"/D/Sites/sample_app/.gitignore",
+		"/D/Sites/sample_app/config.ru",
+		"/D/Sites/sample_app/db/migrate/20130204121705_add_admin_to_users.rb",
+		"/D/Sites/sample_app/lib/tasks/sample_data.rake",
+		"/D/Sites/sample_app/lib/tasks/sample_task",
+>>>>>>> Added Populate task
 		"/D/Sites/sample_app/app/views/users/index.html.erb",
 		"/D/Sites/sample_app/app/views/users/show.html.erb",
 		"/D/Sites/sample_app/app/views/layouts/_header.html.erb",
@@ -499,7 +531,6 @@
 		"/C/Ruby/climbing_stairs.rb",
 		"/C/Ruby/buy1get1.rb",
 		"/D/Sites/ex/config/database.yml",
-		"/D/Sites/sample_app/.gitignore",
 		"/D/Sites/example/config/database.yml",
 		"/D/Programs/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bootstrap-sass-2.2.2.0/vendor/assets/stylesheets/bootstrap/_scaffolding.scss",
 		"/D/Programs/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bootstrap-sass-2.2.2.0/vendor/assets/stylesheets/bootstrap/_hero-unit.scss",
@@ -545,7 +576,6 @@
 		"/D/Sites/sample_app/.rspec",
 		"/D/Sites/sample_app/app/views/static_pages/help.html.erb",
 		"/D/Sites/sample_app/spec/requests/static_pages_spec.rb",
-		"/D/Sites/sample_app/config.ru",
 		"/D/Sites/sample_app/config/application.rb",
 		"/D/Sites/sample_app/public/hello.html",
 		"/D/Sites/demo_app/app/models/user.rb",
@@ -584,10 +614,7 @@
 		"/C/Ruby/small_fact.rb",
 		"/C/Ruby/enormous.rb",
 		"/C/Ruby/temp.rb",
-		"/C/Ruby/factorial.rb",
-		"/C/Ruby/atm.rb",
-		"/C/Ruby/life_universe.rb",
-		"/C/Ruby/defacing.rb"
+		"/C/Ruby/factorial.rb"
 	],
 	"find":
 	{
@@ -655,6 +682,87 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": ".gitignore",
+					"settings":
+					{
+						"buffer_size": 477,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 64.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 1179,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								170,
+								170
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "db/migrate/20130206122524_devise_create_admin_users.rb",
+					"settings":
+					{
+						"buffer_size": 1737,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								317,
+								317
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -688,7 +796,7 @@
 			1.0
 		]
 	},
-	"menu_visible": true,
+	"menu_visible": false,
 	"output.exec":
 	{
 		"height": 120.0
@@ -704,12 +812,12 @@
 		"selected_items":
 		[
 			[
-				"application.ht",
-				"app/views/layouts/application.html.erb"
-			],
-			[
 				"gem",
 				"Gemfile"
+			],
+			[
+				"application.ht",
+				"app/views/layouts/application.html.erb"
 			],
 			[
 				"rou",
