@@ -6,6 +6,7 @@ gem 'bootstrap-sass'
 gem 'bootstrap-will_paginate'
 gem 'will_paginate'
 gem 'bcrypt-ruby'
+gem 'rb-inotify', '~> 0.8.8'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -24,7 +25,7 @@ end
 
 group :test do
 	gem 'capybara', '1.1.2'
-	gem 'rb-fchange', '0.0.5'
+	#gem 'rb-fchange', '0.0.5'
 	gem 'rb-notifu', '0.0.4'
 	#gem 'win32console', '1.3.0'
 	gem 'factory_girl_rails'
