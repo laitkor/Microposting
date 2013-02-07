@@ -328,19 +328,14 @@
 			}
 		},
 		{
+			"contents": "",
 			"file": "db/migrate/20130206122524_devise_create_admin_users.rb",
+			"file_size": -1,
+			"file_write_time": -1,
 			"settings":
 			{
 				"buffer_size": 0,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": ".git/COMMIT_EDITMSG",
-			"settings":
-			{
-				"buffer_size": 463,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -492,6 +487,7 @@
 	},
 	"file_history":
 	[
+		"/D/Sites/sample_app/.git/COMMIT_EDITMSG",
 		"/D/Sites/sample_app/.gitignore",
 		"/D/Sites/sample_app/config.ru",
 		"/D/Sites/sample_app/db/migrate/20130204121705_add_admin_to_users.rb",
@@ -618,8 +614,7 @@
 		"/C/Ruby/odd.rb",
 		"/C/Ruby/small_fact.rb",
 		"/C/Ruby/enormous.rb",
-		"/C/Ruby/temp.rb",
-		"/C/Ruby/factorial.rb"
+		"/C/Ruby/temp.rb"
 	],
 	"find":
 	{
@@ -685,7 +680,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -762,32 +757,6 @@
 							"syntax": "Packages/Ruby/Ruby.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": ".git/COMMIT_EDITMSG",
-					"settings":
-					{
-						"buffer_size": 463,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								355,
-								355
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -959,9 +928,9 @@
 		"width": 380.0
 	},
 	"show_minimap": false,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 200.0,
 	"status_bar_visible": true
 }
