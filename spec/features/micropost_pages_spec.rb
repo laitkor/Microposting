@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe "Micropost pages", type: :controller do
+describe "Micropost pages" do
 
   subject { page }
 
@@ -12,7 +12,7 @@ describe "Micropost pages", type: :controller do
 
     describe "with invalid information" do
 
-      it "should not create a micropost" do
+      it "should not create a micropost", type: :controller do
         expect { click_button "Post" }.not_to change(Micropost, :count)
       end
 
@@ -22,7 +22,7 @@ describe "Micropost pages", type: :controller do
       end
     end
 
-    describe "with valid information" do
+    describe "with valid information", type: :controller do
 
       before { fill_in 'micropost_content', with: "Lorem ipsum" }
       it "should create a micropost" do
