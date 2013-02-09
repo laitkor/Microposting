@@ -12,7 +12,7 @@ describe "Micropost pages" do
 
     describe "with invalid information" do
 
-      it "should not create a micropost", type: :controller do
+      it "should not create a micropost" do
         expect { click_button "Post" }.not_to change(Micropost, :count)
       end
 
@@ -22,7 +22,7 @@ describe "Micropost pages" do
       end
     end
 
-    describe "with valid information", type: :controller do
+    describe "with valid information" do
 
       before { fill_in 'micropost_content', with: "Lorem ipsum" }
       it "should create a micropost" do
