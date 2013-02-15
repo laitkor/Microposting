@@ -6,6 +6,9 @@
 			<%= render 'shared/user_info' %>
 		</section>
 		<section>
+			<%= render 'shared/stats' %>
+		</section>
+		<section>
 			<%= render 'shared/micropost_form' %>
 		</section>
 	</aside>
@@ -16,13 +19,15 @@
 </div>  
 <% else %>
 <div class="center hero-unit">
-	<h1>Welcome to the Sample App</h1>
+	<h1>Welcome to Microposting</h1>
 
-	<h2>
-		This is the home page for the
-		<a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>
-		sample application.
-	</h2>
+	<h3>
+		This is a sample app I developed as project while learning rails from
+		<a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>.
+		<br> I have diverted from the instructions wherever I felt improvements were possible. 
+		<br>For any info on me, feel free to visit my 
+		<a href="http://in.linkedin.com/pub/akash-agrawal/54/166/473/">Linkedin profile</a>.
+	</h3>
 
 	<%= link_to "Sign up now!", signup_path, 
 	class: "btn btn-large btn-primary" %>

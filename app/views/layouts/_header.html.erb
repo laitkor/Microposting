@@ -6,12 +6,11 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</a>
-			<%= link_to "sample app", root_path, class: "brand", id: "logo" %>
+			<%= link_to "microposting", root_path, class: "brand", id: "logo" %>
 			<div class="nav-collapse collapse">
 				<nav>
 					<ul class="nav pull-right">
 						<li><%= link_to "Home", root_path %></li>
-						<li><%= link_to "Help", help_path %></li>
 						<% if signed_in? %>
 						<li><%= link_to "Users", users_path %></li>
 						<li id="fat-menu" class="dropdown">
