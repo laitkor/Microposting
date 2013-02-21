@@ -19,14 +19,17 @@
 </div>  
 <% else %>
 <div class="center hero-unit">
+	<div class="balloon">
+		<%= image_tag "balloon.png" %>
+	</div>
 	<h1>Welcome to Microposting</h1>
 
 	<h3>
 		This is a sample app I developed as project while learning rails from
-		<a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>.
+		<a href="http://railstutorial.org/" class="orangy">Ruby on Rails Tutorial</a>.
 		<br> I have diverted from the instructions wherever I felt improvements were possible. 
 		<br>For any info on me, feel free to visit my 
-		<a href="http://in.linkedin.com/pub/akash-agrawal/54/166/473/">Linkedin profile</a>.
+		<a href="http://in.linkedin.com/in/akashspeaking" class="orangy">Linkedin profile</a>.
 	</h3>
 
 	<%= link_to "Sign up now!", signup_path, 

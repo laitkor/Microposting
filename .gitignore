@@ -16,3 +16,6 @@
 
 # Ignore database config
 /config/database.yml
+
+sample_app.sublime-project
+sample_app.sublime-workspace
