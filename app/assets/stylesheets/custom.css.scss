@@ -283,6 +283,12 @@ input {
 
 /* mobile */
 
+@media(max-width: 979px) {
+  .navbar-inverse .nav-collapse .nav > li > a, .navbar-inverse .nav-collapse .dropdown-menu a {
+    color: #fff;
+  }
+}
+
 @media(max-width: 480px) {
   .hero-unit{
     padding: 10px;
@@ -295,7 +301,7 @@ input {
       line-height: 1.2em;
     }
   }
-
+  
 
   h3 {
     font-size: 2em;

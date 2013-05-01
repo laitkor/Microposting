@@ -8,7 +8,7 @@ describe ApplicationHelper do
     end
 
     it "should include the base title" do
-      helper.full_title("foo").should =~ /^Ruby on Rails Tutorial Sample App/
+      helper.full_title("foo").should =~ /^microposting/
     end
 
     it "should not include a bar for Home page" do
