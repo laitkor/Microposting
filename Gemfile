@@ -7,6 +7,7 @@ gem 'bootstrap-will_paginate'
 gem 'will_paginate'
 gem 'bcrypt-ruby'
 gem 'rb-inotify', '~> 0.8.8'
+gem 'turbolinks'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
