@@ -8,7 +8,10 @@ gem 'will_paginate'
 gem 'bcrypt-ruby'
 gem 'rb-inotify', '~> 0.8.8'
 gem 'turbolinks'
-
+gem 'sidekiq'
+gem 'sinatra'
+gem 'slim'
+gem 'newrelic_rpm'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
